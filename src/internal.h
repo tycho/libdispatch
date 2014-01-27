@@ -184,7 +184,7 @@
 #include <string.h>
 #include <syslog.h>
 #if HAVE_UNISTD_H
-#include <unistd.h>
+#include "unistd.h"
 #endif
 
 #define DISPATCH_NOINLINE __attribute__((__noinline__))

@@ -25,7 +25,7 @@
 #if !HAVE_PTHREAD_MAIN_NP
 
 #if __linux__
-#include <unistd.h>
+#include "unistd.h"
 #include <sys/syscall.h>
 #include <sys/types.h>
 #endif

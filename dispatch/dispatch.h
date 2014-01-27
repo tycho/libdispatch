@@ -30,7 +30,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stdarg.h>
-#include <unistd.h>
+#include "unistd.h"
 #include <fcntl.h>
 
 #ifndef __OSX_AVAILABLE_STARTING
